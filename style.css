@@ -1,0 +1,255 @@
+body{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   font-family: arial,sans-serif;
+   margin: 0px;
+  
+}
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+ul{
+    width: 20%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left:0px;
+    list-style: none;
+    
+}
+a{
+    
+    color: dimgrey;
+    text-decoration: none;
+}
+nav{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.puntosCaja{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+#img6puntos{
+    width: 20px;
+    height: 20px;
+    padding-right: 23px;
+   
+  
+}
+.boton{
+    background-color: #007BFF;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5px;
+    
+}
+#accederboton{
+    color: antiquewhite;
+    
+
+}
+/*google general*/
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.divgooglegral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.imgGoogle{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+
+.buscadorGoogle{
+    display: flex;
+    justify-content: center;
+}
+.buscador{
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    border:1px grey solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.lupita{
+
+   width: 30px;
+height: 30px;
+margin-left: 5px;
+}
+.microfono{
+width: 30px;
+height: 30px;
+}
+
+.imgLupita,.imgMic{
+width: 25px;
+height: 25px;
+margin-top: 6px;
+}
+.inputBusca{
+    width: 90% ;
+    height: 30px;
+    margin-top: 6px;
+    border: transparent;
+    outline: none;
+}
+.pardebotones{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    
+    
+}
+.boton1,.boton2{
+    border: none;
+}
+
+
+
+
+
+
+
+/*footer*/
+footer{
+    width:100% ;
+    height: 55px;
+    background-color: rgb(197, 199, 199);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 291px;
+    border-top: 0.5px solid gray;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+.barra1{
+    margin-left: 10px;
+    font-weight: 600px;
+}
+
+.barra1 a{
+    padding: 0 10px;
+    color: gray;
+}
+.barra1 a:hover{
+    text-decoration: underline;
+}
+.barra2-cajita{
+    margin-left: 10px;
+    font-weight: 600px;
+}
+.barra2{
+    display: flex;
+    flex-direction: row;
+    gap: 700px;
+    margin-bottom: 10px;
+    
+}
+.barra2 a{
+    padding: 0 10px;
+    color: gray;
+   
+}
+.barra2 a:hover{
+    text-decoration: underline;
+}
+
+@media (min-width:360px) and (max-width:768px){
+
+ header{
+     width: 100%;
+ }
+
+.imagenG{
+   width: 150px;
+}
+
+.buscador{
+    width: 250px;
+    height: 30px;
+}
+
+.imgLupita,.imgMic{
+    width: 15px;
+    height: 15px;
+}
+.inputBusca{
+margin-top: 2px;
+height: 25px;
+}
+.boton1,.boton2{
+    font-size: 12px;
+    height: 25px;
+}
+nav{
+    width: 80%;
+}
+ul{
+    width:50%;
+    font-size: 12px;
+}
+.boton{
+    width:50px;
+    height: 25px;
+    font-size: 10px;
+}
+
+footer{
+    width: auto;
+    font-size: 12px;
+   display: flex;
+  flex-direction: column;
+  margin-top: 325px;
+    
+}
+.barra2{
+    width: 100%;
+    display: flex;
+   
+    font-size: 10px;
+    gap:0px;
+
+}
+.grupo1{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.grupo2{
+    display: flex;
+    
+}
+
+
+}
+/*tendria que hacer una media query mas */
